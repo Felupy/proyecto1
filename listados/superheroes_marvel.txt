@@ -2,3 +2,5 @@ Iron Man
 Hulk
 Cpt America
 Viuda Negra
+Doctor Strange
+Thor

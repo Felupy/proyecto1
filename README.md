@@ -45,6 +45,7 @@ git commit --amend [-m "MENSAJE"]
 ## Listar ficheros en el git
 git ls-files
 
-
+## Staging+Commit directo de los cambios de los ficheros que YA se estan controlando
+git commit -am 'Superheroes DC'
 
 
