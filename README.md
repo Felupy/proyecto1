@@ -20,6 +20,7 @@ Es un fichero que se guarda dentro de la carpeta .git, que va anotando los cambi
 La carpeta del .git
 
 
+# Operaciones GIT
 ## Información del estado del proyecto
 git status
 
@@ -30,4 +31,20 @@ git rm --cached <nombre_fichero>
 git rm <nombre_fichero>
 Solo se elimina del Workspace y le dice al STAGING que en el próximo paquete de cambios se elimine el fichero. 
 Pero no se borra el fichero del REPO.
+
+## Mandar los cambios que hay apuntados en el área de STAGING al REPO
+git commit -m 'mensaje'
+
+## Configurar parámetros de Git
+git config --global user.email you@example.com
+La etiqueta "--global" configura los valores por defecto para Git para todos los proyectos. Si la quitamos, solo se configura para el proyecto actual.
+
+## Arreglar un commit
+git commit --amend [-m "MENSAJE"]
+
+## Listar ficheros en el git
+git ls-files
+
+
+
 
