@@ -1,0 +1,11 @@
+
+
+#Comentarios
+
+tmp/ 
+
+#Ignorar a cualquier nivel dentro de una carpeta (src)
+/src/**/tmp
+
+#Negar
+#!/tmp/peliculas_marvel.txt
